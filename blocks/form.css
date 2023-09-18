@@ -21,11 +21,6 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__input {
@@ -37,6 +32,7 @@
   height: 60px;
   max-width: 385px;
   border-radius: 4px;
+  border-color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -58,6 +54,7 @@
   height: 60px;
   cursor: pointer;
   border-radius: 4px;
+  border: none;
 }
 
 .form__button:hover {

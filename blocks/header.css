@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -47,7 +48,7 @@
   display: block;
   color: #2f80ed;
   font-style: italic;
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
@@ -62,9 +63,7 @@
 }
 
 .header__paragraph {
-  margin: 0;
-  right: 80px;
-  bottom: 40px;
+  margin: 0 80 40 0;
   color: #838383;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;

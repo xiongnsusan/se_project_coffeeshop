@@ -20,7 +20,7 @@
 
 .menu__subtitle {
   text-align: center;
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -35,4 +35,5 @@
   flex-wrap: wrap;
   gap: 100px;
   list-style-type: none;
+  margin: 0;
 }

@@ -21,6 +21,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -56,6 +57,7 @@
   cursor: pointer;
   border-radius: 4px;
   border: none;
+  transition: opacity 0.3s ease;
 }
 
 .form__button:hover {
